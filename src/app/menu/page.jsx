@@ -9,7 +9,7 @@ export default function MenuPage() {
  // </header>
  <section className="how-it-works-section">
  <div className="container">
-  <h2> How It's Works ?</h2>
+  <h2> How It Works ?</h2>
   <div className="contain-flex">
     <div className="contain-item">
       <h4>Search</h4>
@@ -25,7 +25,7 @@ export default function MenuPage() {
     <h4>Adopt</h4>
     <p>Finally adopt the dog or cat you love </p>
   </div>
-  
+
   </div>
   </div>
   </section>
