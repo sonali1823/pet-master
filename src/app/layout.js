@@ -9,18 +9,18 @@ export default function RootLayout({ children }) {
         <nav className="bg-blue-600 text-white p-4">
           <ul className="flex space-x-4">
             <li>
-              <Link href="/Menu">
-                <a className="hover:bg-blue-700 p-2 rounded">Menu</a>
+              <Link href="/menu"
+              className="hover:bg-blue-700 p-2 rounded">Menu
               </Link>
             </li>
             <li>
-              <Link href="/aboutus">
-                <a className="hover:bg-blue-700 p-2 rounded">About Us</a>
+              <Link href="/aboutus"
+               className="hover:bg-blue-700 p-2 rounded">About Us
               </Link>
             </li>
             <li>
-              <Link href="/contactus">
-                <a className="hover:bg-blue-700 p-2 rounded">Contact Us</a>
+              <Link href="/contactus"
+                className="hover:bg-blue-700 p-2 rounded">Contact Us
               </Link>
             </li>
           </ul>
