@@ -14,13 +14,13 @@ export default function MenuPage() {
       <h2 class="adopt-pet-heading text-3xl font-bold mb-4">Your Pet Adoption Journey With HeartWarmingPet</h2>
       <div class="description mb-8">
         <label class="title text-lg font-bold mb-2">Search Pet</label>
-        <div class="content-text-muted text-gray-600">Adopt a dog or cat who's right for you. Simply enter your city above to start your search.</div>
+        <div class="content-text-muted text-gray-600">Adopt a dog or cat who is right for you. Simply enter your city above to start your search.</div>
       </div>
     </div>
   </div>
   <div class="description mb-8">
     <label class="title text-lg font-bold mb-2">Connect</label>
-    <div class="content-text text-gray-900">Once you find a pet, click "show number" to get contact info for their pet parent or rescue. Contact them to learn more about how to meet and adopt the pet.</div>
+    <div class="content-text text-gray-900">Once you find a pet, click <b>SHOW NUMBER</b> to get contact info for their pet parent or rescue. Contact them to learn more about how to meet and adopt the pet.</div>
   </div>
   <div class="description mb-8">
     <label class="title text-lg font-bold mb-2">AdoptLove</label>
