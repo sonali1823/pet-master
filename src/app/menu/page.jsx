@@ -88,7 +88,20 @@ export default function MenuPage() {
             </div>
           </div>
         </div>
-    </section></>
+    </section>
+
+  <section className="book-groomer-section adopt-love-section"> 
+    <div className="card-book">
+    <div className="foundation-content-container">
+    <div className="foundation-content">
+              <h2 className>#AdoptLove</h2>
+              <p className="adopt-love-description">Approximately 1478 dogs &amp; cats die every day on road in India. <a className="underline-link-wt" href="/" target="_top">HeartWarmingPet</a> is on a mission to provide every dog and cat a home before 2035.
+              It’s just one of the many ways ThePetNest! gives back and helps you become a part of something larger. Join ThePetStar Community and help setting up Pet houses in your surrounding for strays.
+              </p>
+    </div>            
+    </div>
+    </div>
+  </section></>
 
   );
 }
