@@ -14,7 +14,7 @@ const HeartwarmingPet = () => {
         <input type="email" id="email" name="email" className="block w-full p-2 mb-4 border border-gray-400 rounded" />
         <label htmlFor="message" className="block text-black text-lg mb-2">Your Message:</label>
         <textarea id="message" name="message" className="block w-full p-2 mb-4 border border-gray-400 rounded" />
-        <button type="submit" className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">Send</button>
+        <button type="submit" className="bg-pink hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">Send</button>
       </form>
       <div className="contact-info mb-4">
         <p className="text-lg text-black mb-2">Phone: 555-555-5555</p>
