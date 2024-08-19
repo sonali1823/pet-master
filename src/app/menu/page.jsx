@@ -1,6 +1,6 @@
 export default function MenuPage() {
   return (
- <><section className="container mx-auto p-4 service-for-every-dog">
+  <><section className="container mx-auto p-4 service-for-every-dog">
       <div className="row flex flex-wrap justify-center">
         <div className="col-xl-12  text-right">
           <h2 className="adopt-pet-heading text-3xl font-bold  mb-4">
@@ -81,18 +81,39 @@ export default function MenuPage() {
         </div>
     </section>
 
-  <section className="book-groomer-section adopt-love-section"> 
-    <div className="card-book">
-    <div className="foundation-content-container">
-    <div className="foundation-content">
-              <h2 className>#AdoptLove</h2>
-              <p className="adopt-love-description">Approximately 1478 dogs &amp; cats die every day on road in India. <a className="underline-link-wt" href="/" target="_top">HeartWarmingPet</a> is on a mission to provide every dog and cat a home before 2035.
-              It’s just one of the many ways ThePetNest! gives back and helps you become a part of something larger. Join ThePetStar Community and help setting up Pet houses in your surrounding for strays.
-              </p>
-    </div>            
+ 
+  <section className="footer bg-gray-800 text-white py-8">
+  <div className="container mx-auto flex flex-wrap justify-between">
+    <div className="w-full md:w-1/2 text-left mb-4 md:mb-0">
+      <h4 className="text-lg font-bold mb-2">Contact Us</h4>
+      <p className="mb-1">Email: <a href="mailto:support@heartwarmingpet.com" className="text-gray-400 hover:text-gray-200">support@heartwarmingpet.com</a></p>
+      <p className="mb-1">Phone: <a href="tel:+1234567890" className="text-gray-400 hover:text-gray-200">+1 (234) 567-890</a></p>
+      <p className="mb-1">Address: 123 Pet Street, Animal City, Petland, 56789</p>
     </div>
+
+    <div className="w-full md:w-1/2 text-right">
+      <h4 className="text-lg font-bold mb-2">Follow Us</h4>
+      <div className="flex justify-end space-x-4">
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-200">
+          <i className="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-200">
+          <i className="fab fa-twitter"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-200">
+          <i className="fab fa-instagram"></i>
+        </a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-200">
+          <i className="fab fa-linkedin-in"></i>
+        </a>
+      </div>
     </div>
-  </section></>
+  </div>
+
+  <div className="text-center mt-4">
+    <p>© 2024 HeartWarmingPet. All Rights Reserved.</p>
+  </div>
+</section></>
 
   );
 }
